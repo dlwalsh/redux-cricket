@@ -1,4 +1,6 @@
-import { complement, either, isEmpty, isNil } from 'ramda';
+import {
+  complement, either, isEmpty, isNil,
+} from 'ramda';
 
 const isNotNilOrEmpty = complement(either(isNil, isEmpty));
 
